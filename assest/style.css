@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300&display=swap");
+
+/* universal selector  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* container start  */
+.container {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: none;
+}
+
+/* navbar start  */
+.nav-Container {
+  width: 100%;
+  background-color: #ffe53b;
+  background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+nav {
+  width: 100%;
+}
+
+#nav-list {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 4rem;
+  margin-left: 3rem;
+  list-style: none;
+}
+
+#brand-Logo {
+  font-family: "Lobster", cursive;
+  font-size: 2.5rem;
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+}
+
+#nav-items {
+  display: flex;
+  gap: 4rem;
+}
+
+#nav-items a {
+  text-decoration: none;
+  color: rgb(255, 254, 190);
+  background-color: none;
+  font-weight: 600;
+}
+
+#nav-items a:hover {
+  color: rgb(255, 247, 0);
+  transition: all 0.3s ease-in-out;
+}
+
+/* navbar end  */
+
+/* content-box-start  */
+.content-box {
+  background-image: linear-gradient(
+    174.2deg,
+    rgba(255, 244, 228, 1) 7.1%,
+    rgba(240, 246, 238, 1) 67.4%
+  );
+}
+
+.main-content {
+  width: 95%;
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+/* heading start  */
+.main-heading {
+  margin: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.main-heading h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: rgb(255, 0, 0);
+  text-shadow: #fc0 1px 0 5px;
+  width: 50rem;
+}
+
+.main-heading p {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #004526;
+  align-items: center;
+  margin-left: 5rem;
+  width: 50rem;
+  text-shadow: rgb(255, 0, 0) 1px 1px 2px;
+}
+/* heading end  */
+
+/* fruit cards start  */
+.item-cards {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: start;
+  padding-bottom: 2rem;
+}
+
+.cards {
+  height: 34rem;
+  width: 20rem;
+  background-color: #ffef85;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.cards img {
+  width: 100%;
+  height: 40%;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.text-box .price {
+  background-color: rgb(251, 142, 142);
+  padding: 0.4rem 1.5rem;
+  border-radius: 5px;
+}
+
+#buy-now-btn {
+  padding: 0.4rem 5rem;
+  background-color: #ff2525;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-weight: bolder;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+  margin-top: 0.7rem;
+}
+
+#buy-now-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 11px 5px -7.7px rgb(252, 141, 141),
+    0 6px 6px 0.3px rgb(252, 141, 141);
+}
+/* fruit cards end  */
+
+/* footer start  */
+.footer-container {
+  width: 100%;
+  height: 8rem;
+  background-color: #ffe53b;
+  background-image: linear-gradient(2deg, #ffe53b 0%, #ff2525 74%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-container p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: black;
+}
+
+.footer-container .social-media {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  height: 3.8rem;
+  width: 25rem;
+}
+
+.footer-container .social-media a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+  font-weight: 600;
+  background-color: #ff2525;
+  padding: 0.7rem 1.2rem;
+  border-radius: 100%;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.footer-container .social-media a:hover {
+  color: rgb(255, 255, 0);
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+/* footter end  */

@@ -1,0 +1,64 @@
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .nav-Container {
+    height: 3.7rem;
+  }
+
+  #nav-list {
+    font-size: 1.3rem;
+  }
+
+  #brand-Logo {
+    font-size: 2.3rem;
+  }
+
+  #nav-items {
+    gap: 3rem;
+  }
+
+  .main-heading h1 {
+    font-size: 2.7rem;
+    width: 28rem;
+  }
+
+  .main-heading p {
+    font-size: 1.8rem;
+    width: 28rem;
+  }
+
+  .cards {
+    height: 30rem;
+    width: 18rem;
+  }
+
+  .text-box {
+    padding: 0.9rem;
+    font-size: 0.8rem;
+  }
+
+  .text-box .price {
+    padding: 0.3rem 1.3rem;
+  }
+
+  #buy-now-btn {
+    padding: 0.3rem 4.9rem;
+    font-size: 0.8rem;
+  }
+
+  .footer-container {
+    height: 6.5rem;
+  }
+
+  .footer-container p {
+    font-size: 1rem;
+  }
+
+  .footer-container .social-media {
+    height: 3.4rem;
+    width: 22rem;
+  }
+
+  .footer-container .social-media a {
+    font-size: 1rem;
+    padding: 0.5rem 0.9rem;
+  }
+}
