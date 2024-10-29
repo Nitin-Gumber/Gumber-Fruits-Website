@@ -28,6 +28,7 @@
   align-items: center;
   position: fixed;
   top: 0;
+  box-shadow: rgba(0, 0, 0, 1) 0px 0px 7px;
 }
 
 nav {
@@ -196,7 +197,7 @@ nav {
   color: black;
 }
 
-.footer-container .social-media {
+.social-media {
   display: flex;
   gap: 1.5rem;
   justify-content: center;
@@ -205,16 +206,18 @@ nav {
   width: 25rem;
 }
 
-.footer-container .social-media a {
+.social-media a {
   text-decoration: none;
   color: black;
   font-size: 1.3rem;
   font-weight: 600;
   background-color: #ff2525;
-  padding: 0.7rem 1.2rem;
+  aspect-ratio: 1/1;
+  padding: 0.8rem;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
   border-radius: 100%;
-  cursor: pointer;
-  font-weight: bold;
 }
 
 .footer-container .social-media a:hover {
